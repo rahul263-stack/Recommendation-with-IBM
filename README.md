@@ -1,31 +1,28 @@
-# Recommendations with IBM
+# Recommendations_with_IBM
 
-### Installations
+## Required libraries
 
-This project requires **Python 3.x** and the following Python libraries installed:
+- python 3.6.3
+- pandas 0.20.3
+- numpy 1.12.1
+- matplotlib 2.1.0
+- sklearn 0.19.1
 
-- scikit-learn==0.21.2
-- pandas==0.24.2
-- numpy==1.16.4
-- matplotlib==3.1.0
+## Motivation
 
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
+For this project I will be looking at the interactions that users have with articles on the IBM Watson Studio platform. Below It can be seen an example of what the dashboard could look like displaying articles on the IBM Platform.
 
-install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project.
+<img src="assets/Recommendations_with_IBM.png" width="80%" alt="Recommendations with IBM">
 
+The above dashboard is just showing the newest articles. It could imagine having a recommendation board available here that shows the articles that are most pertinent to a specific user.
 
-### Project Motivation:
+In order to determine which articles to show to each user, It will be performing a study of the data available on the [IBM Watson Studio platform](https://dataplatform.cloud.ibm.com/).
 
-Analyze user behavior and social network data on IBM Watson platform to build a recommendation engine based on to surface content most likely to be relevant to a user.  This project consisted of building various types of recommendation engines such as rank-based, user-user collaborative filtering, and matrix factorization.
+## Files
 
-### Data:
+- Recommendations_with_IBM.ipynb: My answer for recommendations, It describe how to recommend articles to users
+- Recommendations_with_IBM.html: As the same of above notebook but format is html.
 
+## Acknowledgements
 
-The data is for IBM an online data science community through udacity. 
-
-### Licensing, Authors, Acknowledgements
-
-This project is part of Data scientist Nanodegree from udacity 
-
-This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please refer to [Udacity Terms of Service](https://www.udacity.com/legal) for further information.
-
+I wish to thank [IBM Watson Studio platform](https://dataplatform.cloud.ibm.com/) for dataset, and thank [Udacity](https://www.udacity.com/) for advice and review.
